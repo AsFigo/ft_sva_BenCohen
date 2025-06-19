@@ -1,0 +1,207 @@
+$date
+	Mon Feb 24 17:18:49 2025
+$end
+$version
+	QuestaSim Version 2024.3_2
+$end
+$timescale
+	1ns
+$end
+
+$scope module top2 $end
+$var reg 1 ! clk_gated $end
+$var reg 1 " clk_ref $end
+$var reg 1 # en $end
+$var reg 1 $ en1 $end
+$var integer 32 % pass $end
+$var integer 32 & pass2 $end
+$var integer 32 ' err $end
+$var integer 32 ( err2 $end
+$var integer 32 ) tbcount $end
+
+$scope task t_clk_en0 $end
+
+$scope begin am_3clk_after_en $end
+$upscope $end
+$upscope $end
+
+$scope begin ap_noclk_en $end
+$upscope $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+1$
+b0 %
+b0 &
+b0 '
+b0 (
+b0 )
+$end
+#1
+1"
+1!
+#2
+0"
+0!
+#3
+1"
+1!
+#4
+0"
+0!
+#5
+1"
+1!
+#6
+0"
+0!
+#7
+1"
+1!
+#8
+0"
+0!
+#9
+1"
+1!
+0#
+#10
+0"
+0!
+#11
+1"
+1!
+b1 )
+#12
+0"
+0!
+#13
+1"
+1!
+b10 )
+#14
+0"
+0!
+#15
+1"
+1!
+b11 )
+#16
+0$
+0"
+0!
+#17
+1"
+#18
+0"
+#19
+b1 &
+1"
+#20
+0"
+#21
+1"
+#22
+0"
+#23
+1"
+#24
+0"
+#25
+1"
+#26
+0"
+#27
+1"
+#28
+0"
+#29
+1"
+#30
+0"
+#31
+1"
+#32
+0"
+#33
+1"
+#34
+0"
+#35
+1"
+#36
+0"
+#37
+1"
+#38
+0"
+#39
+1"
+1#
+#40
+0"
+#41
+1"
+b1 %
+#42
+0"
+#43
+1"
+#44
+1$
+0"
+#45
+1"
+1!
+#46
+0"
+0!
+#47
+1"
+1!
+#48
+0"
+0!
+#49
+1"
+1!
+#50
+0"
+0!
+#51
+1"
+1!
+#52
+0"
+0!
+#53
+1"
+1!
+#54
+0"
+0!
+#55
+1"
+1!
+#56
+0"
+0!
+#57
+1"
+1!
+#58
+0"
+0!
+#59
+1"
+1!
+#60
+0"
+0!
