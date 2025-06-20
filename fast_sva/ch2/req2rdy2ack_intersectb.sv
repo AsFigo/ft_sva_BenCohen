@@ -14,9 +14,9 @@ property p_req2rdy2ack;
 endproperty
 ap_req2rdy2ack: assert property( p_req2rdy2ack);  
 
-ap: assert property( // @ (posedge clk)    
-(  (@(posedge clk) $rose(req) ##1  rdy |-> ##1 ack or ##2 ack) and  
-   (@(posedge clk) $rose(req) ##2 rdy |-> ##1 ack or ##2 ack));
+ap: assert property( @ (posedge clk)    
+(  ($rose(req) ##1  rdy |-> ##1 ack or ##2 ack) and  
+   ($rose(req) ##2 rdy |-> ##1 ack or ##2 ack))); // AF added missing )
 
 
 ap_req_in2_rdy_ack: assert property(  
